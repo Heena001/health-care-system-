@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<link data-require="bootstrap-css@3.0.0" data-semver="3.0.0" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+
+</head>
+ <body ng-app="myapp" >
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Health Care</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="#">about us</a></li>
+      <li><a href="#">contact us</a></li>
+      </ul>
+  </div>
+</nav>
+
+<div ui-view=""  style="height:200px;width:400px;border:1px solid black"></div>
+ <div>
+<a ui-sref="state1" class="btn btn-success">login</a>
+<a ui-sref="state2" class="btn btn-success">signup</a>
+
+</div>
+<script type="text/javascript" src="script/angular.min.js"></script>
+<script type="text/javascript" src="script/angular-ui-router.min.js"></script>
+
+    <script src="app.js"></script>
+
+<script type="text/javascript" src="logincontroller.js"></script>
+<script type="text/javascript" src="signupcontroller.js"></script>
+
+</body>
+</html>
