@@ -8,7 +8,10 @@ method:'POST',
 params: {
 
 	name:$scope.name,
-	pass:$scope.pass
+	pass:$scope.pass,
+	phone_no:$scope.phone_no,
+    date_of_birth:$scope.date_of_birth,                                                                                                   
+    gender:$scope.gender
 }
 
 }).then(function(response){

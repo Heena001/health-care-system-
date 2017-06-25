@@ -1,6 +1,22 @@
 <div>
-
-<input type="text" ng-model="name">
-<input type="text" ng-model="pass">
-<button ng-click="signup()">signup</button>
+<table>
+<tr>  
+<td>Name : 
+<td><input type="text" ng-model="name"></tr>
+<tr> 
+<td>Password :
+<td> <input type="text" ng-model="pass"></tr>
+<tr>
+<td>Email :
+<td> <input type="text" ng-model="email"></tr>
+<tr>
+<td>Phone_no : 
+<td><input type="text" ng-model="phone_no"></tr>
+<tr><td> Gendeer : 
+<td>
+<input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female<tr>
+<tr>
+<td><button ng-click="signup()">signup</button></tr>
+</table>
 </div>
