@@ -14,9 +14,14 @@
 <td><input type="text" ng-model="phone_no"></tr>
 <tr><td> Gendeer : 
 <td>
-<input type="radio" name="gender" value="male" checked> Male
-  <input type="radio" name="gender" value="female"> Female<tr>
+<input type="radio" ng-model="gender" value="male" checked> Male
+  <input type="radio" ng-model="gender" value="female"> Female<tr>
 <tr>
 <td><button ng-click="signup()">signup</button></tr>
 </table>
+</div>
+<div>
+	
+	already registered user 	
+<a ui-sref="state1" class="btn btn-info">Login</a>
 </div>
